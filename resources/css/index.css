@@ -11,15 +11,20 @@
 
  .jumbotron {
  	background-color: #003366;
+ 	background-image: url("../images/connectedworld.png");
  	color: #f6f6f6;
  	padding: 100px 25px;
+ 	background-size: 100% 100%;
+ 	background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
  }
 
  .container-fluid {
  	padding: 60px 50px;
  }
  .bg-grey {
- 	background-color: #f6f6f6;
+ 	background-color: #e7f3ff;
  }
  .logo-small {
  	color: #003366;
@@ -108,15 +113,15 @@
  	border-radius: 0;
  }
  .navbar li a, .navbar .navbar-brand {
- 	color: #fff !important;
+ 	color: #e7f3ff !important;
  }
  .navbar-nav li a:hover, .navbar-nav li.active a {
  	color: #003366 !important;
- 	background-color: #fff !important;
+ 	background-color: #e7f3ff !important;
  }
  .navbar-default .navbar-toggle {
  	border-color: transparent;
- 	color: #fff !important;
+ 	color: #e7f3ff !important;
  }
 
 
@@ -126,5 +131,5 @@
  }
 
  .logoHover:hover {
- 	background-color: #f6f6f6;
+ 	background-color: #e7f3ff;
  }
